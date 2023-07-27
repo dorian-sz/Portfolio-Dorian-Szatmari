@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap') format('woff2');   
+}
+
+:root {
+    --main-font: "Montserrat";
+    --white-font-colour: #fff;
+    --main-background-colour: #3d6687;
+    --highlight-font-colour: #6b71f2;
+    --hover-underline-colour: #6b71f2;
+}
