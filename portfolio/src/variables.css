@@ -8,5 +8,6 @@
     --white-font-colour: #fff;
     --main-background-colour: #3d6687;
     --highlight-font-colour: #6b71f2;
-    --hover-underline-colour: #6b71f2;
+    --hover-underline-background: rgb(12,144,122);
+    --hover-underline-gradient: linear-gradient(115deg, rgba(12,144,122,1) 0%, rgba(17,167,113,1) 46%, rgba(26,209,131,1) 100%);
 }
