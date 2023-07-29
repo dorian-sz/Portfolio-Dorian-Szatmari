@@ -43,3 +43,88 @@
 .nav-link:hover::after {
     width: 100%; /* When hovering, set the width to 100% to create the animation effect */
 }
+
+.nav-logo-container{
+    margin-right: auto;
+    margin-left: 5rem;
+}
+
+.nav-logo{
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 
+        0.05em 0 0 rgba(180, 3, 3, 0.85),
+        -0.025em -0.05em 0 rgba(0, 117, 0, 0.85),
+        0.025em 0.05em 0 rgba(1, 1, 159, 0.85);
+    animation: glitch 1000ms infinite;
+}
+
+.nav-logo span{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.nav-logo span:first-child{
+    animation: glitch 600ms infinite;
+    clip-path: polygon(0 0,100% 0,100% 45%,0 45%);
+    transform: translate(-0.015em, -0.025em);
+    opacity: 0.8;
+}
+
+.nav-logo span:last-child{
+    animation: glitch 850ms infinite;
+    clip-path: polygon(0 60%,100% 60%,100% 100%,0 100%);
+    transform: translate(0.015em, 0.015em);
+    opacity: 0.8;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 
+        0.05em 0 0 rgba(180, 3, 3, 0.85),
+        -0.025em -0.05em 0 rgba(0, 117, 0, 0.85),
+        0.025em 0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    14% {
+        text-shadow: 
+        0.05em 0 0 rgba(180, 3, 3, 0.85),
+        -0.025em -0.05em 0 rgba(0, 117, 0, 0.85),
+        0.025em 0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    15% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(180, 3, 3, 0.85),
+        0.025em 0.025em 0 rgba(0, 117, 0, 0.85),
+        -0.025em -0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    49% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(180, 3, 3, 0.85),
+        0.025em 0.025em 0 rgba(0, 117, 0, 0.85),
+        -0.025em -0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    50% {
+        text-shadow: 
+        0.025em -0.05em 0 rgba(180, 3, 3, 0.85),
+        0.05em -0.0255em 0 rgba(0, 117, 0, 0.85),
+        -0.05em -0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    99% {
+        text-shadow: 
+        0.025em -0.05em 0 rgba(180, 3, 3, 0.85),
+        0.05em -0.0255em 0 rgba(0, 117, 0, 0.85),
+        -0.05em -0.05em 0 rgba(1, 1, 159, 0.85);
+    }
+    100% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(180, 3, 3, 0.85),
+        0.025em -0.05em 0 rgba(0, 117, 0, 0.85),
+        -0.025em -0.025em 0 rgba(1, 1, 159, 0.85);
+    }
+}
