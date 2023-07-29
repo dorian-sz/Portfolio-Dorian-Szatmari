@@ -1,0 +1,56 @@
+.landing-page-container{
+    color: #e5e5e5;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin: 5rem auto;
+}
+
+.landing-page-introduction-container{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.landing-page-greeting-container{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    text-shadow: 0 0 7px rgba(3, 0, 0, 0.5), 0 0 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-greeting-animation{
+    display: flex;
+    flex-direction: column;
+    height: 4.5rem;
+    overflow: hidden;
+}
+
+.landing-page-greeting-animation > div > div{
+    padding: 0 0.25rem;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.landing-page-greeting-animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    15% {margin-top: 0;}
+    25% {margin-top: -6.45rem;}
+    40% {margin-top: -6.45rem;}
+    45% {margin-top: -6.45rem;}
+    50% {margin-top: -12.9rem;}
+    65% {margin-top: -12.9rem;}
+    70% {margin-top: -12.9rem;}
+    75% {margin-top: 0;}    
+    85% {margin-top: 0;}
+}
