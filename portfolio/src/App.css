@@ -1,1 +1,7 @@
-
+.App{
+    display: flex;
+    background-image: url("./img/wallhaven-x12gko_2560x1440.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+}
