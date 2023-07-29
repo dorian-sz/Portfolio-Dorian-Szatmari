@@ -13,6 +13,9 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
+            <div className="landing-page-image-container">
+                <img src={feeling_proud} alt="" className="landing-page-image"/>
+            </div>
         </div>
   )
 }
