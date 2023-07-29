@@ -1,0 +1,45 @@
+.nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.nav-list{
+    display: flex;
+    gap: 2.5rem;
+    
+    list-style-type: none;
+}
+
+.nav-link{
+    position: relative;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0.25rem;
+    background: var(--hover-underline-background);
+    background: var(--hover-underline-gradient);
+    border-radius: 10px;
+    transition: width 0.2s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* When hovering, set the width to 100% to create the animation effect */
+}
