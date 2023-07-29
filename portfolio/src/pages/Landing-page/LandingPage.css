@@ -42,6 +42,16 @@
     animation: text-animation 8s infinite;
 }
 
+.landing-page-image-container{
+    margin-top: 5rem;
+}
+
+.landing-page-image{
+    width: 300px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(3px 5px 5px #222);
+}
+
 @keyframes text-animation {
     0% {margin-top: 0;}
     15% {margin-top: 0;}
