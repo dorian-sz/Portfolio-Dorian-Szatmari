@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import LandingPage from './pages/Landing-page/LandingPage';
 import './variables.css';
 import {Route, Routes} from "react-router-dom";
 
@@ -8,7 +9,7 @@ function App() {
     <div className='App'>
       <Navbar></Navbar>
       <Routes>
-        <Route></Route>
+        <Route path='/' element={<LandingPage/>}></Route>
       </Routes>
     </div>
   );
