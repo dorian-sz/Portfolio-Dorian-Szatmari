@@ -1,10 +1,10 @@
 .landing-page-container{
-    color: #e5e5e5;
+    color: var(--main-font-colour);
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
-    width: 55%;
-    margin: 5rem auto;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .landing-page-introduction-container{
