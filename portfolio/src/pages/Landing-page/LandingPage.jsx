@@ -22,9 +22,12 @@ const LandingPage = () => {
                         <p id="intro-2" className="animate">Here, you'll find a selection of <span className="landing-page-introduction-highlight"><Link to="/projects">projects</Link></span> that showcase my abilities and creativity as I strive to make a positive impact through technology.</p>
                     </div>
                 </main>
-                <div className="landing-page-links-container">
-                    <a href="https://github.com/dorian-sz"><FontAwesomeIcon icon={faSquareGithub} style={{color: "#ffffff"}} /></a>
-                    <a href="https://github.com/dorian-sz"><FontAwesomeIcon icon={faLinkedin} style={{color: "#ffffff",}} /></a>
+                <div id="links" className="landing-page-links-container animate">
+                    <p>Find me here <span id="arrow">&rarr;</span></p>
+                    <div>
+                        <a href="https://github.com/dorian-sz" target="_blank"><FontAwesomeIcon icon={faSquareGithub} style={{color: "#ffffff"}} /></a>
+                        <a href="https://www.linkedin.com/in/dorián-szatmári-a0604a249/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{color: "#ffffff",}} /></a>
+                    </div>
                 </div>
             </div>
             <div className="landing-page-image-container animate">
