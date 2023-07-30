@@ -1,5 +1,6 @@
 import "./LandingPage.css";
 import developer_activity from "../../img/undraw_developer_activity_re_39tg.svg";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -15,8 +16,8 @@ const LandingPage = () => {
                 </div>
                 <main>
                     <div className="landing-page-introduction">
-                        <p id="intro-1" className="animate">This portfolio is introduction of <span className="landing-page-introduction-highlight">me</span> and a glimpse into my world of coding. </p>
-                        <p id="intro-2" className="animate">Here, you'll find a selection of <span className="landing-page-introduction-highlight">projects</span> that showcase my abilities and creativity as I strive to make a positive impact through technology.</p>
+                        <p id="intro-1" className="animate">This portfolio is a glimpse into my world of coding and also serves as a platform for others to learn more <span className="landing-page-introduction-highlight"><Link to="/projects">about me</Link></span> </p>
+                        <p id="intro-2" className="animate">Here, you'll find a selection of <span className="landing-page-introduction-highlight"><Link to="/projects">projects</Link></span> that showcase my abilities and creativity as I strive to make a positive impact through technology.</p>
                     </div>
                 </main>
             </div>
