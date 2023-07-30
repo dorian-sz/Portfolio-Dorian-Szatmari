@@ -8,17 +8,16 @@
 }
 
 .landing-page-introduction-container{
-    margin-top: 2.5rem;
+    margin-top: 8rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 0 7px rgba(3, 0, 0, 0.5), 0 0 3px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: flex-start;
 }
 
 .landing-page-greeting-container{
     font-size: 3rem;
-    letter-spacing: 0.3rem;
-    color: white;
-    text-shadow: 0 0 7px rgba(3, 0, 0, 0.5), 0 0 3px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
 }
@@ -31,11 +30,13 @@
 }
 
 .landing-page-greeting-animation > div > div{
+    color: var(--highlight-font-colour);
     padding: 0 0.25rem;
-    border-radius: 5px;
     display: inline-flex;
     align-items: center;
     margin-bottom: 3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6c6c6c;
 }
 
 .landing-page-greeting-animation div:first-child {
