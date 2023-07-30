@@ -102,7 +102,7 @@
 }
 
 .landing-page-image-container.animate{
-    animation-delay: 1s;
+    animation-delay: 0.8s;
 }
 
 @keyframes animate-slide {
@@ -113,5 +113,48 @@
     100% {
         opacity: 1;
         transform: translate(0,0);
+    }
+}
+
+.landing-page-links-container{
+    font-size: 1.25rem;
+    margin-top:10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landing-page-links-container div{
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+#arrow{
+    display: inline-block;
+    font-size: 1.5rem;
+    transform: scale(5);
+    animation: arrow-slide 1s infinite ease-in-out;
+}
+
+#links.animate{
+   
+    animation-delay: 1.4s;
+}
+
+
+@keyframes arrow-slide {
+    0%{
+        transform: translateX(0)
+    }
+    50%{
+        transform: translateX(15px)
+    }
+    60%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(0);
     }
 }
