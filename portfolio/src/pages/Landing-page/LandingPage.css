@@ -44,11 +44,11 @@
 }
 
 .landing-page-image-container{
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .landing-page-image{
-    width: 300px;
+    width: 450px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(3px 5px 5px #222);
 }
