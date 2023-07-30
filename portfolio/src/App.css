@@ -1,7 +1,9 @@
 .App{
+    font-family: var(--main-font);
     display: flex;
-    background-image: url("./img/wallhaven-x12gko_2560x1440.png");
+    flex-direction: column;
+    background-image: url("./img/wallhaven-lmomkp_1920x1080.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
     min-height: 100vh;
 }
