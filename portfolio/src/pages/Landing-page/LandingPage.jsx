@@ -13,6 +13,12 @@ const LandingPage = () => {
                         <div className="landing-page-greeting-third">a <div>Codecool Student</div></div>
                     </div>
                 </div>
+                <main>
+                    <div className="landing-page-introduction">
+                        <p id="intro-1" className="animate">This portfolio is introduction of <span className="landing-page-introduction-highlight">me</span> and a glimpse into my world of coding. </p>
+                        <p id="intro-2" className="animate">Here, you'll find a selection of <span className="landing-page-introduction-highlight">projects</span> that showcase my abilities and creativity as I strive to make a positive impact through technology.</p>
+                    </div>
+                </main>
             </div>
             <div className="landing-page-image-container animate">
                 <img src={developer_activity} alt="" className="landing-page-image"/>
