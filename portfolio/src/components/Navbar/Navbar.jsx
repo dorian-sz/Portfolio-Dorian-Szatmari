@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>        
                 <div className="nav-li-container">
                   <li className='nav-li'>
-                    <Link to="/about-me" className='nav-link'>About me</Link>
+                    <Link to="/about-me" className='nav-link'>About</Link>
                   </li>
                 </div>        
                 <div className="nav-li-container">
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>    
                 <div className="nav-li-container">
                   <li className='nav-li'>
-                  <Link to="/curriculum-vitae" className='nav-link'>Curriculum vitae</Link>
+                  <Link to="/curriculum-vitae" className='nav-link'>Curriculum Vitae</Link>
                   </li>
                 </div> 
               </ul>
