@@ -1,13 +1,18 @@
+/* Define @font-face for Bebas Neue */
 @font-face {
-    font-family: "Montserrat";
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap') format('woff2');   
-}
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooz6fNcOMY.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf') format('truetype');
+  }
 
 :root {
-    --main-font: "Montserrat";
-    --white-font-colour: #fff;
-    --main-background-colour: #3d6687;
-    --highlight-font-colour: #6b71f2;
+    --main-font: 'Bebas Neue', sans-serif;
+    --main-font-colour: #fff;
+    --highlight-font-colour: rgba(26,209,131,1);
     --hover-underline-background: rgb(12,144,122);
     --hover-underline-gradient: linear-gradient(115deg, rgba(12,144,122,1) 0%, rgba(17,167,113,1) 46%, rgba(26,209,131,1) 100%);
 }
