@@ -1,5 +1,5 @@
 import "./LandingPage.css";
-import programming from "../../img/undraw_programming_re_kg9v.svg"
+import developer_activity from "../../img/undraw_developer_activity_re_39tg.svg";
 
 const LandingPage = () => {
   return (
@@ -15,7 +15,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="landing-page-image-container animate">
-                <img src={programming} alt="" className="landing-page-image"/>
+                <img src={developer_activity} alt="" className="landing-page-image"/>
             </div>
         </div>
   )
