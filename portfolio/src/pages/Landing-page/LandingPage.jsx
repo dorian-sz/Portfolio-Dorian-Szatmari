@@ -25,8 +25,8 @@ const LandingPage = () => {
                 <div id="links" className="landing-page-links-container animate">
                     <p>Find me here <span id="arrow">&rarr;</span></p>
                     <div>
-                        <a href="https://github.com/dorian-sz" target="_blank"><FontAwesomeIcon icon={faSquareGithub} style={{color: "#ffffff"}} /></a>
-                        <a href="https://www.linkedin.com/in/dorián-szatmári-a0604a249/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{color: "#ffffff",}} /></a>
+                        <a href="https://github.com/dorian-sz" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faSquareGithub} style={{color: "#ffffff"}} /></a>
+                        <a href="https://www.linkedin.com/in/dorián-szatmári-a0604a249/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{color: "#ffffff",}} /></a>
                     </div>
                 </div>
             </div>
