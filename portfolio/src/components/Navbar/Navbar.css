@@ -127,10 +127,6 @@
     }
 }
 
-.nav-list-hidden{
-    display: none;
-}
-
 .nav-hamburger-menu-container{
     display: none;
     cursor: pointer;
@@ -153,7 +149,7 @@
 }
 
 .nav-hamburger-menu-container.open span:last-child{
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(135deg);
 }
 
 @media screen and (max-width: 1000px) {
@@ -163,6 +159,9 @@
 }
 
 @media screen and (max-width: 830px) {
+    .nav-list.nav-list-hidden{
+        display: none;
+    }
     .nav-hamburger-menu-container{
         display: block;
     }
