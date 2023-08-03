@@ -279,3 +279,21 @@
         70% {margin-top: -9.5rem;}
     }
 }
+
+
+@media screen and (min-height: 710px) and (max-width: 600px) {
+    .landing-page-introduction-container{
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (min-height: 830px) and (max-width: 600px) {
+
+    .landing-page-greeting-container{
+        margin-top: 3rem;
+    }
+
+    .landing-page-introduction-container{
+        gap: 4.5rem;
+    }
+}
