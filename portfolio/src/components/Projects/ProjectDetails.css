@@ -108,3 +108,25 @@
         left: 0;
     }
 }
+
+@media screen and (max-width: 535px) {
+    .project-details-sidebar img{
+        width: 350px;
+    }
+
+    .project-details-sidebar{
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .project-details-sidebar img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-details-sidebar img{
+        width: 250px;
+    }
+}

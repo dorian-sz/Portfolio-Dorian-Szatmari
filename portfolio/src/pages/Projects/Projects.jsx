@@ -5,8 +5,8 @@ import ProjectCard from '../../components/Projects/ProjectCard'
 const Projects = ({setDisplayDetails}) => {
   return (
     <div className='projects-container'>
-        <p className='projects-introduction'>Projects</p>
-        <div className="projects-cards-container">
+        <p className='projects-introduction animate-appearing'>Projects</p>
+        <div className="projects-cards-container animate-sliding">
             <ProjectCard gif={"images/mental-health.gif"} setDisplayDetails={setDisplayDetails}></ProjectCard>
         </div>
     </div>
