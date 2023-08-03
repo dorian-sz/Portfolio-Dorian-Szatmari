@@ -53,3 +53,17 @@
     gap: 0.5rem;
     align-items: center;
 }
+
+@media screen and (max-width: 430px){
+    .project-card-container{
+        width: 300px;
+        height: 350px;
+    }
+    .project-card-hover-info{
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.5564600840336135) 0%, rgba(255,255,255,0) 100%);
+    }
+}
