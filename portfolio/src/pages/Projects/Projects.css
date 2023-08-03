@@ -1,0 +1,12 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: auto;
+}
+
+.projects-introduction{
+    color: #fff;
+    font-size: 30px;
+}
