@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="nav-logo-container">
               <p className='nav-logo'> <span aria-hidden="true">SzD.</span>SzD.<span aria-hidden="true">SzD.</span></p>
             </div>  
-              <ul className={`nav-list ${toggleMenu ? "" : "nav-list-hidden"}`}>
+              <ul className={`${toggleMenu ? "nav-list" : "nav-list nav-list-hidden"}`}>
                 <div className="nav-li-container">
                   <li className='nav-li'>
                     <Link to="/" className='nav-link'>Home</Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
                   </li>
                 </div> 
               </ul>
-              <div className={`nav-hamburger-menu-container ${toggleMenu ? "open" : ""}`} onClick={() => setToggleMenu(!toggleMenu)} >
+              <div className={`${toggleMenu ? "nav-hamburger-menu-container open" : "nav-hamburger-menu-container"}`} onClick={() => setToggleMenu(!toggleMenu)} >
                   <span className="nav-hamburger-bar"></span>
                   <span className="nav-hamburger-bar"></span>
               </div>
