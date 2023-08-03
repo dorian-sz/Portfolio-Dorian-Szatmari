@@ -176,7 +176,7 @@
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
-        background-color: rgba(50, 50, 50);
+        background-color: var(--dark-bg-colour);
         border-radius: 5px;
     }
 }
