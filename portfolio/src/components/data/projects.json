@@ -13,7 +13,8 @@
                 "Mssql",
                 "Docker"
             ],
-            "gif":"images/mental-health.gif"
+            "gif":"images/mental-health.gif",
+            "github": "https://github.com/lilifarkas/mental-health-journal/tree/development"
         },
         {
             "projectName": "Task Manager CRUD App",
@@ -28,7 +29,8 @@
                 "Mssql",
                 "Docker"
             ],
-            "gif": "images/mental-health.gif"
+            "gif": "images/mental-health.gif",
+            "github": "https://github.com/dorian-sz/TaskManager-CRUD-app"
         },
         {
             "projectName": "React and Morty",
@@ -39,7 +41,8 @@
                 "Javascript",
                 "CSS"
             ],
-            "gif": "images/mental-health.gif"
+            "gif": "images/mental-health.gif",
+            "github": "https://github.com/CodecoolGlobal/react-and-morty-react-lilifarkas/tree/development"
         }
     ]
 }
