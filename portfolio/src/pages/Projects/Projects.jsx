@@ -2,12 +2,19 @@ import React from 'react'
 import "./Projects.css"
 import ProjectCard from '../../components/Projects/ProjectCard'
 
-const Projects = ({setDisplayDetails}) => {
+const Projects = ({setDisplayDetails, projects, setProject}) => {
   return (
     <div className='projects-container'>
         <p className='projects-introduction animate-appearing'>Projects</p>
         <div className="projects-cards-container animate-sliding">
-            <ProjectCard gif={"images/mental-health.gif"} setDisplayDetails={setDisplayDetails}></ProjectCard>
+            {
+              projects.ProjectArr.map((project, i)=>{
+                return(
+                  <ProjectCard key={i} project={project} setDisplayDetails={setDisplayDetails} setProject={setProject}></ProjectCard>
+                )
+              })
+            }
+            
         </div>
     </div>
   )
