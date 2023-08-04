@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './App.css';
+import {Route, Routes} from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import ProjectDetails from './components/Projects/ProjectDetails';
 import LandingPage from './pages/Landing-page/LandingPage';
 import Projects from './pages/Projects/Projects';
 import './variables.css';
-import {Route, Routes} from "react-router-dom";
+import ProjectsData from "./components/data/projects.json"
 
 function App() {
   const [displayDetails, setDisplayDetails] = useState(false);
