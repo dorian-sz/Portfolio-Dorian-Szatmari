@@ -27,7 +27,10 @@
                 "ASP.NET Core",
                 "Entity Frameworks",
                 "Mssql",
-                "Docker"
+                "Docker",
+                "xUnit",
+                "Fluent Assertions",
+                "Fakeiteasy"
             ],
             "gif": "images/mental-health.gif",
             "github": "https://github.com/dorian-sz/TaskManager-CRUD-app"
