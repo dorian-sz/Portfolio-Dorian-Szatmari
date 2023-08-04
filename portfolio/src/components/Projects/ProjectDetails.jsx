@@ -14,7 +14,7 @@ const ProjectDetails = ({setDisplay, project}) => {
                 <p className="project-details-title">{project.projectName}</p>
                 <p className="project-details-description">{project.shortDescription}</p>
             </div>
-            <img src="images/mental-health.gif" alt=""/>
+            <img src={`${project.gif}`} alt=""/>
             <div className="project-details-group">
                 <p className="project-details-title">About</p>
                 <p className="project-details-description">
@@ -25,9 +25,9 @@ const ProjectDetails = ({setDisplay, project}) => {
                 <p className="project-details-title">Technologies</p>
                 <div className="project-details-tech-container">
                     {
-                        project.techUsed.map((tech)=>{
+                        project.techUsed.map((tech,)=>{
                             return(
-                                <Tech techName={tech} fontSize={"14px"}></Tech>
+                                <Tech key={tech} techName={tech} fontSize={"14px"}></Tech>
                             )
                         })
                     }
