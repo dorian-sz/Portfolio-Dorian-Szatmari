@@ -8,9 +8,9 @@ const Projects = ({setDisplayDetails, projects, setProject}) => {
         <p className='projects-introduction animate-appearing'>Projects</p>
         <div className="projects-cards-container animate-sliding">
             {
-              projects.ProjectArr.map((project)=>{
+              projects.ProjectArr.map((project, i)=>{
                 return(
-                  <ProjectCard project={project} setDisplayDetails={setDisplayDetails} setProject={setProject}></ProjectCard>
+                  <ProjectCard key={i} project={project} setDisplayDetails={setDisplayDetails} setProject={setProject}></ProjectCard>
                 )
               })
             }
