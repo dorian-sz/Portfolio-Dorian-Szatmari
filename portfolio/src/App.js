@@ -10,9 +10,14 @@ import ProjectsData from "./components/data/projects.json"
 
 function App() {
   const [displayDetails, setDisplayDetails] = useState(false);
+  const [currentProject, setCurrentProject] = useState({});
 
   const setDisplay = () => {
     setDisplayDetails(!displayDetails);
+  }
+
+  const setProject = (proj) => {
+    setCurrentProject(proj)
   }
 
   return (
@@ -20,9 +25,9 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<LandingPage/>}></Route>
-          <Route path='/projects' element={<Projects setDisplayDetails={setDisplay}/>}></Route>
+          <Route path='/projects' element={<Projects setDisplayDetails={setDisplay} projects={ProjectsData} setProject={setProject}/>}></Route>
         </Routes>
-        {displayDetails && <ProjectDetails setDisplay={setDisplayDetails}/>}
+        {displayDetails && <ProjectDetails setDisplay={setDisplayDetails} project={currentProject}/>}
     </div>
   );
 }
