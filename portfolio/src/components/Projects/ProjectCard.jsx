@@ -16,9 +16,9 @@ const ProjectCard = ({project, setDisplayDetails, setProject}) => {
             <p className='project-card-info'>{project.shortDescription}</p>
             <div className="project-card-tech-container">
               {
-                project.techUsed.map((tech)=>{
+                project.techUsed.map((tech, i)=>{
                   return(
-                    <Tech techName={tech}></Tech>
+                    <Tech key={i} techName={tech}></Tech>
                   )
                 })
               }
