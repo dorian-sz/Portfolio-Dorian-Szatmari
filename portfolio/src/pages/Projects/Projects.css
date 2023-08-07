@@ -1,55 +1,55 @@
-.projects-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 50%;
-    margin: auto;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  margin: auto;
 }
 
-.projects-introduction{
-    color: #fff;
-    font-size: 30px;
+.projects-introduction {
+  color: #fff;
+  font-size: 30px;
 }
 
-.projects-cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+.projects-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.animate-appearing{
-    animation-duration: .25s;
-    animation-delay: 0.25s;
-    animation-name: anime-appear;
-    animation-timing-function: linear;
-    animation-fill-mode: backwards;
+.animate-appearing {
+  animation-duration: 0.25s;
+  animation-delay: 0.25s;
+  animation-name: anime-appear;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
 }
 
 .animate-sliding {
-    animation-duration: .5s;
-    animation-delay: 0.5s;
-    animation-name: animate-slide;
-    animation-timing-function: linear;
-    animation-fill-mode: backwards;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-name: animate-slide;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
 }
 
 @keyframes anime-appear {
-    0%{
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100%{
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes animate-slide {
-    0% {
+  0% {
     opacity: 0;
-    transform: translate(0,15px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0,0);
-    }
+    transform: translate(0, 15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }

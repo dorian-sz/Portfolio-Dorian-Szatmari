@@ -1,9 +1,11 @@
-import "./Tech.css"
+import "./Tech.css";
 
-const Tech = ({techName, fontSize}) => {
+const Tech = ({ techName, fontSize }) => {
   return (
-    <div className='tech-container' style={{fontSize: fontSize}}><p>{techName}</p></div>
-  )
-}
+    <div className="tech-container" style={{ fontSize: fontSize }}>
+      <p>{techName}</p>
+    </div>
+  );
+};
 
-export default Tech
+export default Tech;

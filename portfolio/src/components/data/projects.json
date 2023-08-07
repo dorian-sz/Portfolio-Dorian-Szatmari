@@ -1,51 +1,47 @@
 {
-    "ProjectArr": [
-        {
-            "projectName": "Mental Health Journal",
-            "shortDescription": "An app that helps you track your mood and tasks for the day",
-            "longDescription": "Mental Health Journal is an app for people who struggle with mental health and would like to keep track of it and improve it.",
-            "techUsed": [
-                "React",
-                "Javascript",
-                "CSS",
-                "ASP.NET Core",
-                "Entity Frameworks",
-                "Mssql",
-                "Docker"
-            ],
-            "gif":"images/mental-health.gif",
-            "github": "https://github.com/lilifarkas/mental-health-journal/tree/development"
-        },
-        {
-            "projectName": "Task Manager CRUD App",
-            "shortDescription": "Never forget to do your tasks again.",
-            "longDescription": "An app to help you keep track of your tasks for busy or relaxed days.",
-            "techUsed": [
-                "React",
-                "Javascript",
-                "CSS",
-                "ASP.NET Core",
-                "Entity Frameworks",
-                "Mssql",
-                "Docker",
-                "xUnit",
-                "Fluent Assertions",
-                "Fakeiteasy"
-            ],
-            "gif": "images/task-manager.gif",
-            "github": "https://github.com/dorian-sz/TaskManager-CRUD-app"
-        },
-        {
-            "projectName": "React and Morty",
-            "shortDescription": "Find your favourite Rick and Morty character",
-            "longDescription": "A list of Rick and Morty characters for hardcore fans. Fetched from the rickandmorty api.",
-            "techUsed": [
-                "React",
-                "Javascript",
-                "CSS"
-            ],
-            "gif": "images/mental-health.gif",
-            "github": "https://github.com/CodecoolGlobal/react-and-morty-react-lilifarkas/tree/development"
-        }
-    ]
+  "ProjectArr": [
+    {
+      "projectName": "Mental Health Journal",
+      "shortDescription": "An app that helps you track your mood and tasks for the day",
+      "longDescription": "Mental Health Journal is an app for people who struggle with mental health and would like to keep track of it and improve it.",
+      "techUsed": [
+        "React",
+        "Javascript",
+        "CSS",
+        "ASP.NET Core",
+        "Entity Frameworks",
+        "Mssql",
+        "Docker"
+      ],
+      "gif": "images/mental-health.gif",
+      "github": "https://github.com/lilifarkas/mental-health-journal/tree/development"
+    },
+    {
+      "projectName": "Task Manager CRUD App",
+      "shortDescription": "Never forget to do your tasks again.",
+      "longDescription": "An app to help you keep track of your tasks for busy or relaxed days.",
+      "techUsed": [
+        "React",
+        "Javascript",
+        "CSS",
+        "ASP.NET Core",
+        "Entity Frameworks",
+        "Mssql",
+        "Docker",
+        "xUnit",
+        "Fluent Assertions",
+        "Fakeiteasy"
+      ],
+      "gif": "images/task-manager.gif",
+      "github": "https://github.com/dorian-sz/TaskManager-CRUD-app"
+    },
+    {
+      "projectName": "React and Morty",
+      "shortDescription": "Find your favourite Rick and Morty character",
+      "longDescription": "A list of Rick and Morty characters for hardcore fans. Fetched from the rickandmorty api.",
+      "techUsed": ["React", "Javascript", "CSS"],
+      "gif": "images/mental-health.gif",
+      "github": "https://github.com/CodecoolGlobal/react-and-morty-react-lilifarkas/tree/development"
+    }
+  ]
 }
