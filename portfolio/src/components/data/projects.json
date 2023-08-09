@@ -34,14 +34,6 @@
       ],
       "gif": "images/task-manager.gif",
       "github": "https://github.com/dorian-sz/TaskManager-CRUD-app"
-    },
-    {
-      "projectName": "React and Morty",
-      "shortDescription": "Find your favourite Rick and Morty character",
-      "longDescription": "A list of Rick and Morty characters for hardcore fans. Fetched from the rickandmorty api.",
-      "techUsed": ["React", "Javascript", "CSS"],
-      "gif": "images/mental-health.gif",
-      "github": "https://github.com/CodecoolGlobal/react-and-morty-react-lilifarkas/tree/development"
     }
   ]
 }
