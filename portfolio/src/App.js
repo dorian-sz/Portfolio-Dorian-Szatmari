@@ -7,6 +7,7 @@ import LandingPage from "./pages/Landing-page/LandingPage";
 import Projects from "./pages/Projects/Projects";
 import "./variables.css";
 import ProjectsData from "./components/data/projects.json";
+import CVPage from "./pages/CV-page/CVPage";
 
 function App() {
   const [displayDetails, setDisplayDetails] = useState(false);
@@ -35,6 +36,7 @@ function App() {
             />
           }
         ></Route>
+        <Route path="/curriculum-vitae" element={<CVPage />}></Route>
       </Routes>
       {displayDetails && (
         <ProjectDetails
