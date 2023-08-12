@@ -1,0 +1,40 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 8rem auto;
+  color: white;
+  gap: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+.about-intro-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-tech-tools-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-tech-card-container {
+  margin: auto;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
