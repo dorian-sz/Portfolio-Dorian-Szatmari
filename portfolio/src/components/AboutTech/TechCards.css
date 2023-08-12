@@ -1,0 +1,9 @@
+.tech-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.25rem;
+}
