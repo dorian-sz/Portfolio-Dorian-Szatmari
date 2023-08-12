@@ -1,8 +1,10 @@
 import React from "react";
 import "./Projects.css";
 import ProjectCard from "../../components/Projects/ProjectCard";
+import { useTitle } from "../../components/setTitle";
 
 const Projects = ({ setDisplayDetails, projects, setProject }) => {
+  useTitle("Projects");
   return (
     <div className="projects-container">
       <p className="projects-introduction animate-appearing">Projects</p>

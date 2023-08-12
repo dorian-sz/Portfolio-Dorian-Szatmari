@@ -3,8 +3,10 @@ import developer_activity from "../../img/undraw_developer_activity_re_39tg.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { useTitle } from "../../components/setTitle";
 
 const LandingPage = () => {
+  useTitle("Home");
   return (
     <div className="landing-page-container animate">
       <div className="landing-page-introduction-container">
@@ -28,7 +30,7 @@ const LandingPage = () => {
               This portfolio is a glimpse into my world of coding and also
               serves as a platform for others to learn more{" "}
               <span className="landing-page-introduction-highlight">
-                <Link to="/projects">about me</Link>
+                <Link to="/about-me">about me</Link>
               </span>{" "}
             </p>
             <p id="intro-2" className="animate">
