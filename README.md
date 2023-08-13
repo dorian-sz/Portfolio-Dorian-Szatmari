@@ -1,5 +1,7 @@
-# Portfolio-Dorian-Szatmari (Under Development)
-Welcome to my Portfolio's repository. It's still unfinished but once complete it will be deployed.
+# Portfolio-Dorian-Szatmari
+Welcome to my Portfolio's repository. The portfolio's website can be found on this address:
+
+https://dorian-szatmari.netlify.app/
 
 ## Technologies
 - React
@@ -13,8 +15,7 @@ Welcome to my Portfolio's repository. It's still unfinished but once complete it
 - CV download
 
 ## Run the website
-Since it's still unfinished you will have to run it on your localhost.
-To do this you will need 
+If you choose you can run the website on your localhost. To do this you will need nodejs to be installed on your computer.
 
 Navigate to ./portfolio
 
